@@ -1,0 +1,11 @@
+com\app\logica\Artista.class
+com\app\persistencia\ControladoraPersistencia.class
+com\app\presentacion\Main.class
+com\app\servlets\SvCancionCrear.class
+com\app\logica\ControladoraLogica.class
+com\app\servlets\SvArtistaListar.class
+com\app\persistencia\CancionJpaController.class
+com\app\servlets\SvCancionListar.class
+com\app\logica\Cancion.class
+com\app\servlets\SvArtistaCrear.class
+com\app\persistencia\ArtistaJpaController.class

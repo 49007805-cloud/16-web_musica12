@@ -1,0 +1,25 @@
+info:
+  name: AltaCancion
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://localhost:8080/actividad14/SvCancionCrear
+  body:
+    type: form-urlencoded
+    data:
+      - name: titulo
+        value: Civil War
+      - name: duracion
+        value: "7.40"
+      - name: anio
+        value: "1992"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
